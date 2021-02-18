@@ -143,17 +143,11 @@ h6 {
     color: white;
 }
 
-.video-container {
-  object-fit: cover;
-  width: 100vw;
-  height: 50vh;
-  position: fixed;
-  top: 0;
-  left: 0;
-}
-
-.bg-img-aboutus {
-    ;
+video {
+    width: 100vw;
+    height: 500px;
+    object-fit: cover;
+    background-color: black;
 }
 
 .about-us {
