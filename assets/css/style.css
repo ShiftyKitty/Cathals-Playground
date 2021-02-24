@@ -12,20 +12,15 @@ body {
     min-height: 100%;
 }
 
-/*
 
 header {
     font-family: "Lexend Mega", sans-serif;
     width: 100vw;
-    height: 15vh;
-    color: white;
     background-color: black;
     position: relative;
-    display: block;
     margin: 0 auto;
     padding: 0;
 }
-*/
 
 h1,
 h2,
@@ -34,7 +29,65 @@ h4,
 h5,
 h6 {
     font-family: "Lexend Mega", sans-serif;
+    font-size: 300%;
+    text-transform: uppercase;
 }
+
+.my-nav {
+    background-color: black;
+    min-height: 15vh;
+}
+
+.my-nav .navbar-brand h1 {
+    color: white;
+    font-size: 200%;
+
+}
+
+.my-nav .nav-link {
+    color: white;
+    font-size: 150%;
+}
+
+.navbar-toggler-icon {
+    color: white;
+    font-size: 2rem;
+    padding: 8px;
+    border: solid 1px white;
+}
+
+.anchor-nav {
+    font-family: "Lexend Mega", sans-serif;
+    width: 100%;
+    float: right;
+    background-color: black;
+    margin-left: 0;
+    padding-left: 0;
+    border-top: solid 1px;
+    border-bottom: solid 1px;
+}
+
+.anchor-nav ul {
+    display: table;
+    float: right;
+    list-style: none;
+    padding: 2px;
+    margin: 0;
+}
+
+.anchor-nav li {
+    display: table-cell;
+    float: left;
+    color: white;
+    padding: 0 20px;
+    margin: 0;
+}    
+
+.anchor-nav li a {
+    display: block;
+    color: white;
+}
+
 
 /*
 .inner-header {
@@ -69,19 +122,33 @@ h6 {
     text-decoration: none;
 }
 
+.navbar-toggle.collapsed {
+    background-color: goldenrod !important;
+}
+
+.navbar-inverse .navbar-toggle, .navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus{
+    background-color: red !important;
+}
+
+.dropdownmenu.dropdown-toggle{
+background: url(http://yourwebsite.com/wp-content/themes/zerif-pro/images/menu-icon.png) center center no-repeat green !important;
+}
+
+/*
 .navigation {
     height: 100%;
     display: table;
     float: right;
     margin-bottom: 0;
 }
-
+/*
 .navigation li {
     height: 100%;
     display: table;
     float: left;
     color: white;
     text-decoration: none;
+    
 }
 
 .navigation li a {
@@ -90,7 +157,7 @@ h6 {
     color: white;
     text-decoration: none;
     vertical-align: middle;
-    padding: 0 20px;
+    padding: 2rem;
     margin: 0 auto;
     border-left: solid 1px;
 }
@@ -103,7 +170,7 @@ h6 {
     background-color: white;
     text-decoration: none;
     vertical-align: middle;
-    padding: 0 20px;
+    padding: 2rem;
     margin: 0 auto;
     border-left: solid 1px;
     border-right: solid 1px;
@@ -113,6 +180,14 @@ h6 {
     -o-transition: all 0.35s ease-in-out;
 }
 
+.nav-link {
+    padding: 1rem;
+}
+
+.navbar-toggler {
+    color: aliceblue;
+}
+/*
 .anchor-nav {
     display: table;
     width: 100%;
@@ -159,7 +234,7 @@ video {
     background-color: gray;
     color: black;
     width: 100%;
-    height: 550px;
+    min-height: 550px;
     text-align: center;
     padding: 40px;
 }
@@ -175,7 +250,7 @@ video {
 .schedule {
     background-color: yellow;
     width: 100%;
-    height: 850px;
+    min-height: 850px;
     text-align: center;
     padding: 40px;
     overflow: auto; 
@@ -184,13 +259,13 @@ video {
 .faqs {
     background-color: cyan;
     width: 100%;
-    height: 400px;
+    min-height: 550px;
 }
 
 .testimonials {
     background-color: purple;
     width: 100%;
-    height: 400px;
+    min-height: 400px;
 }
 
 footer {
