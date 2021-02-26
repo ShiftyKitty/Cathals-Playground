@@ -5,11 +5,13 @@
     margin: 0;
     box-sizing: border-box;
 }
+html {
+    height: 100%;
+}
 
 body {
     width: 100vw;
-    height: 100%;
-    min-height: 100%;
+    min-height: 100vh;
 }
 
 
@@ -309,14 +311,12 @@ video {
 
 
 footer {
-    min-height: 40vh;
+    min-height: 25rem;
     width: 100vw;
     background-color: black;
     font-family: "Lexend Mega", sans-serif;
     color: white;
-    position: relative;
-    bottom: 0;
-    left: 0;
+    margin-top: auto;
 }
 
 .inner-footer {
