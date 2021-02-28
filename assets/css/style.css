@@ -58,6 +58,14 @@ h6 {
     border: solid 1px white;
 }
 
+.navbar-nav {
+    padding-left: 50px;
+}
+
+.navbar-nav .nav-link {
+    padding-left: 50px;
+}
+
 .anchor-nav {
     font-family: "Lexend Mega", sans-serif;
     width: 100%;
@@ -88,6 +96,7 @@ h6 {
 .anchor-nav li a {
     display: block;
     color: white;
+    text-decoration: none;
 }
 
 
@@ -319,6 +328,20 @@ footer {
     margin-top: auto;
 }
 
+footer .container {
+    padding: 0;
+    margin: 0;
+}
+
+#soc-med-position {
+    width: 100%;
+}
+
+#soc-med-position ul {
+    float: right;
+
+}
+
 .inner-footer {
     position: absolute;
     width: 100%;
@@ -350,6 +373,7 @@ footer {
 
 .contact-us {
     padding: 15px;
+    width: 100%;
 }
 
 .contact-us-heading {
@@ -365,8 +389,12 @@ footer {
 
 .social-media {
     position: absolute;
+    width: 100%;
     right: 5px;
     bottom: 5px;
+}
+
+.social-media ul {
     list-style: none;
     display: inline-flex;
     padding: 10px;
@@ -407,4 +435,62 @@ footer {
     -webkit-transition: all 0.35s ease-in-out;
     -o-transition: all 0.35s ease-in-out;
     box-sizing: content-box;
+}
+
+@media screen and (max-width: 768px) {
+    .inner-footer{
+        position: relative;
+        width: 500px;
+        height: 375px;
+        text-align: center;
+    }
+
+    .contact-us {
+        width: 400px;
+        height: 60%;
+        margin: 5px auto;
+    }
+
+
+    .social-media {
+        width: 400px;
+        height: 40%;
+        margin: 0 auto;
+        position: relative;
+        bottom: 5%;
+        right: 2.5%;
+    }
+
+    .social-media ul li{
+        padding: 20px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .inner-footer{
+        position: relative;
+        width: 500px;
+        height: 375px;
+        text-align: center;
+    }
+
+    .contact-us {
+        width: 400px;
+        height: 60%;
+        margin: 5px auto;
+    }
+
+
+    .social-media {
+        width: 400px;
+        height: 40%;
+        margin: 0 auto;
+        position: relative;
+        bottom: 5%;
+        right: 2.5%;
+    }
+
+    .social-media ul li{
+        padding: 20px;
+    }
 }
