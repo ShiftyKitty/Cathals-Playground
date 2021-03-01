@@ -18,7 +18,7 @@ body {
 header {
     font-family: "Lexend Mega", sans-serif;
     width: 100vw;
-    background-color: black;
+    background-color: #111111;
     position: relative;
     margin: 0 auto;
     padding: 0;
@@ -36,26 +36,36 @@ h6 {
 }
 
 .my-nav {
-    background-color: black;
+    background-color: #111111;
     min-height: 15vh;
+    width: 100%;
+    margin: 0 auto;
 }
 
 .my-nav .navbar-brand h1 {
-    color: white;
+    color: #D1B100;
     font-size: 200%;
+    text-shadow: -1px -1px 0 #E7E6E2, 1px -1px 0 #E7E6E2, -1px 1px 0 #E7E6E2, 1px 1px 0 #E7E6E2;
+
 
 }
 
 .my-nav .nav-link {
-    color: white;
+    color: #D1B100;
     font-size: 150%;
+    text-shadow: -1px -1px 0 #E7E6E2, 1px -1px 0 #E7E6E2, -1px 1px 0 #E7E6E2, 1px 1px 0 #E7E6E2;
+}
+
+.navbar-toggler {
+    margin: 0 auto;
 }
 
 .navbar-toggler-icon {
-    color: white;
+    color: #F1CB00;
     font-size: 2rem;
     padding: 8px;
-    border: solid 1px white;
+    border: solid 1px #F1CB00;
+    text-shadow: -1px -1px 0 #E7E6E2, 1px -1px 0 #E7E6E2, -1px 1px 0 #E7E6E2, 1px 1px 0 #E7E6E2;
 }
 
 .navbar-nav {
@@ -66,11 +76,15 @@ h6 {
     padding-left: 50px;
 }
 
+.navbar-collapse {
+    margin: 0 auto;
+}
+
 .anchor-nav {
     font-family: "Lexend Mega", sans-serif;
     width: 100%;
     float: right;
-    background-color: black;
+    background-color: #111111;
     margin-left: 0;
     padding-left: 0;
     border-top: solid 1px;
@@ -88,15 +102,17 @@ h6 {
 .anchor-nav li {
     display: table-cell;
     float: left;
-    color: white;
+    color:#F1CB00;
     padding: 0 20px;
     margin: 0;
+    text-shadow: -1px -1px 0 #E7E6E2, 1px -1px 0 #E7E6E2, -1px 1px 0 #E7E6E2, 1px 1px 0 #E7E6E2;
 }    
 
 .anchor-nav li a {
     display: block;
-    color: white;
+    color: #F1CB00;
     text-decoration: none;
+    text-shadow: -1px -1px 0 #E7E6E2, 1px -1px 0 #E7E6E2, -1px 1px 0 #E7E6E2, 1px 1px 0 #E7E6E2;
 }
 
 
@@ -233,11 +249,24 @@ background: url(http://yourwebsite.com/wp-content/themes/zerif-pro/images/menu-i
 
 */
 
+main {
+    width: 100vw;
+}
+
+.bg-vid-img {
+    display: none;
+}
+
+.video-container{
+    width: 100%;
+}
+
 video {
     width: 100vw;
     height: 500px;
+    background-image: url("../assets/images/jon-tomas-mt.jpg");
     object-fit: cover;
-    background-color: black;
+    background-color: #111111;
 }
 
 .about-us {
@@ -269,10 +298,12 @@ video {
 
 
 
-.faqs {
+.faq {
+    text-align: center;
     background-color: cyan;
     width: 100%;
     min-height: 550px;
+    padding: 40px;
 }
 
 .faqs p {
@@ -322,9 +353,9 @@ video {
 footer {
     min-height: 25rem;
     width: 100vw;
-    background-color: black;
+    background-color:#111111;
     font-family: "Lexend Mega", sans-serif;
-    color: white;
+    color: #F1CB00;
     margin-top: auto;
 }
 
@@ -379,12 +410,14 @@ footer .container {
 .contact-us-heading {
     font-size: 30px;
     padding-left: 10px;
+    text-shadow: -1px -1px 0 #E7E6E2, 1px -1px 0 #E7E6E2, -1px 1px 0 #E7E6E2, 1px 1px 0 #E7E6E2;
 }
 
 .contact-us li {
     text-decoration: none;
     list-style: none;
     padding-left: 10px;
+    text-shadow: -1px -1px 0 #E7E6E2, 1px -1px 0 #E7E6E2, -1px 1px 0 #E7E6E2, 1px 1px 0 #E7E6E2;
 }
 
 .social-media {
@@ -410,8 +443,9 @@ footer .container {
     line-height: 15px;
     margin: 10px;
     text-align: center;
-    color: black;
-    background-color: white;
+    color: #111111;
+    background-color: #F1CB00;
+    text-shadow: -1px -1px 0 #E7E6E2, 1px -1px 0 #E7E6E2, -1px 1px 0 #E7E6E2, 1px 1px 0 #E7E6E2;
     transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
     -webkit-transition: all 0.35s ease-in-out;
@@ -428,8 +462,8 @@ footer .container {
     line-height: 15px;
     margin: 10px;
     text-align: center;
-    color: white;
-    background-color: black;
+    color: #F1CB00;
+    background-color: #111111;
     transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
     -webkit-transition: all 0.35s ease-in-out;
@@ -438,11 +472,34 @@ footer .container {
 }
 
 @media screen and (max-width: 768px) {
+    .my-nav .navbar-brand h1 {
+        padding-left: 20px;
+        text-align: center;
+        margin: 0 auto;
+        font-size: 140%;
+
+    }
+
+    .video-container {
+    display: none;
+    }
+
+    .bg-vid-img {
+        margin: 0;
+        background-size: auto;
+        background-repeat: no-repeat;
+        width: 100%;
+        min-height: 600px;
+        display: block;
+        zoom: 20%;
+    }
+
     .inner-footer{
         position: relative;
         width: 500px;
         height: 375px;
         text-align: center;
+        margin: 0 auto;
     }
 
     .contact-us {
@@ -472,6 +529,7 @@ footer .container {
         width: 500px;
         height: 375px;
         text-align: center;
+        margin: 0 auto;
     }
 
     .contact-us {
