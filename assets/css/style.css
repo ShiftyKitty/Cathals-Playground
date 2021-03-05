@@ -440,10 +440,241 @@ video {
     top: 0;
     background-position: center;
     background-size: cover;
-    opacity: 0.5;
+    opacity: 0.3;
+}
+
+.gallery {
+    background-color: #D1B100;
+    margin: 0 auto;
+}
+
+.gallery h2 {
+    padding: 40px;
+    text-align: center;
+    font-size: 225%;
+    font-weight: 600;
+}
+
+.gallery img {
+    padding: 20px;
+    width: 100%;
+}
+
+/*
+.gallery img:hover {
+    width: 100vw;
+    height: 100vh;
+    background-color: #f7f7f7;
+    background-size: cover;
+}
+*/
+
+
+.contact-pg {
+    background-color: #D1B100;
+    margin: 0 auto;
+    width: 100vw;
+    min-height: 950px;
+
+    position: relative;
+}
+
+.contact-pg::before {
+    content: '';
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+    background-image: url("../images/Attentieattentieringwalk.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.50;
+}
+
+.contact-pg h2 {
+    padding: 40px;
+    text-align: center;
+    font-size: 225%;
+    font-weight: 600;
+}
+
+.contactInfo .box {
+    border: solid 1px #111111;
+    background-color: #111111;
+    color: #f7f7f7;
+    width: 60%;
+    padding: 10px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.contactInfo .box h5 {
+    font-size: 125%;
+    font-weight: 600;
+    color: #f7f7f7;
+}
+
+.contactInfo .box p {
+    font-size: 125%;
+    font-weight: 400;
+    color: #f7f7f7;
+}
+
+.contactInfo .box address {
+    font-size: 125%;
+    font-weight: 400;
+    color: #f7f7f7;
+}
+
+.contactInfo .box a {
+    color: #f7f7f7;
+}
+
+.contact-form {
+    margin: 0 auto;
+    border: solid 1px;
+    width: 35% !important;
+    background-color: #111111;
+}
+
+.contact-form h4 {
+    padding: 10px 0;
+    color: #f7f7f7;
+}
+
+.contact-form label {
+    font-weight: 600;
+    color: #111111;
+}
+
+.contact-form label {
+    font-weight: 600;
+    color: #111111;
+}
+
+.contact-form textarea {
+    height: 40vh;
+}
+
+.bar-spacer {
+    margin-bottom: 15px;
+}
+
+.submit-btn {
+    width: 50%;
+    margin: 0 auto;
 }
 
 
+.submit-btn button {
+    font-weight: 600;
+    color: #111111;
+    border: solid 1px;
+    background-color: #f7f7f7;
+    font-weight: 600;
+}
+
+.submit-btn button:hover {
+    font-weight: 600;
+    color: #f7f7f7;
+    border: solid 1px;
+    background-color: #D1B100;
+    margin: 0 auto;
+    font-weight: 600;
+}
+
+.thank-you h4 {
+    font-size: 200%;
+    font-weight: 600;
+    color: #f7f7f7;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.thank-you p {
+    font-size: 200%;
+    font-weight: 600;
+    color: #f7f7f7;
+    text-align: center;
+}
+/*
+.contact-pg-box {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.welcome-msg {
+    border: solid 1px;
+    background-color: #f7f7f7;
+    padding: 20px;
+    width: 20vw;
+    margin-bottom: 10px;
+    
+}    
+
+.welcome-msg p {
+    font-size: 125%;
+    font-weight: 600;
+    color: #111111;
+
+}  
+
+.opening-hours {
+    border: solid 1px;
+    background-color: #f7f7f7;
+    
+    padding: 20px;
+    width: 20vw;
+
+}
+
+.opening-hours h5 {
+    font-size: 125%;
+    font-weight: 600;
+    color: #111111;
+}
+
+.opening-hours p {
+    font-size: 125%;
+    font-weight: 600;
+    color: #111111;
+}
+
+.contact-form {
+    
+    
+    width: 20%;
+    min-height: 100%;
+
+    background-color: #f7f7f7;
+    border: solid 1px;
+}
+
+.name {
+    margin-bottom: 10px;
+    border: none;
+}
+
+.email {
+    margin-bottom: 10px;
+}
+
+.cont-number {
+    margin-bottom: 10px;
+}
+
+.query-form {
+    padding-bottom: 50px;
+
+}
+
+.query-form textarea {
+    padding-bottom: 50px;
+
+}
+*/
 footer {
     min-height: 25rem;
     width: 100vw;
