@@ -160,7 +160,7 @@ decision to join.
 - Gallery and Contact Us are easily accessible.
 
 ### Skeleton Plane:
-Link to wireframes
+[Link to wireframes](../assets/wireframes)
 
 ### The Surface plane:
 Font: Will be a mix of “Lexend Mega” and “Nunito Sans” 
@@ -174,6 +174,7 @@ Iframe video is video made from friend who’s page will be appropriately linked
 
 
 ## Features:
+<hr>
 This project will be composed of three main pages. The Home/index.html, the gallery page and the contact page.
 
 Each page will have the exact same header and footer to promote familiarity. 
@@ -186,6 +187,7 @@ Footer will have business contact info, a map to the business location and socia
 
 Home Page:
 Will be structured in the following manner:
+<br>
 Iframe video: highlighting the excitement of muay thai through video from youtube. When condensed to mobile, video 
 will appear as a youtube link.
 About us: Describing why someone should do muay thai. Offer collapsible “see more” arrows
@@ -209,33 +211,100 @@ When user selects Submit, I want to show that their application has been process
 Thank you for your message. A member of staff will be in contact shortly. 
 
 
-## Existing Features/Future features
-Features Left to Implement
-•	Another feature idea
+### Existing Features/Future features
+Features Implemented: <br>
+    • Navigation to navigate through website. Each navigation element reacts when hovered on
+    - Anchor drop navigation added to homepage
+    - Video embedded to site. 
+    - video changes to image when hits mobile
+    - schedule collapses when on mobile device
+    - faq have collapsible read more feature
+    - testimonials on carrousel
+    - google map of location added to footer on every page
+    - gallery consists of images sourced from unsplash.com
+    - contact page consists of contact info and contact form
+    - when you click send on contact page you are brought through to seperate page informing you that message has been sent
 
+### Features Left to Implement
+    •	links for email and tel to be clickable throughout site
+    •   contact info added to contact form to be necessary before send button becomes available
+
+### Features decided against
+- hover over feature on gallery images to allow to take full screen size. Did not add anything when implemented 
+- 
 
 ## Technologies Used
+<hr>
 This project will primarily be made up of HTML and CSS with elements of Bootstrap thrown in. 
+
 HTML: Used to make framework and content of the site
+
 CSS: Used to style this content and the webpage as a whole
+
 Bootstrap: In initial stages will be used to create table in the Schedule/Pricing section. 
 More to follow.
 
+- HTML: 
+    - Used to create general framework of site.
+
+- [Bootstrap](https://getbootstrap.com/):
+    - Project uses Bootstrap to initially add [grid structure](https://getbootstrap.com/docs/5.0/layout/grid/). 
+    - Project uses bootstrap for [header navigation](https://getbootstrap.com/docs/5.0/components/navbar/)
+    - Project uses bootstrap to add [hamburger toggler for mobile device.](https://getbootstrap.com/docs/5.0/components/navbar/#toggler) 
+    - Project uses bootstrap to add [collapsible](https://getbootstrap.com/docs/5.0/components/collapse/#multiple-targets) read more for faqs, 
+    - Project uses bootstrap to add [carousel](https://getbootstrap.com/docs/5.0/components/carousel/#dark-variant) for testimonials, 
+    - Project uses bootstrap to add contact [form](https://getbootstrap.com/docs/5.0/forms/floating-labels/) for contact page. 
+
+- CSS: 
+    - Used to style all HTML and Bootstrap elements in project.
+
+
 ## Testing
+<hr>
 After each milestone has been complete, a series of tests will be run and results documented in this section.
 All HTML and CSS will go through relevant testing sites to ensure all has been T’s have been crossed and i’s have 
 been dotted.
 
+After rigourous testing through use of friends and family members, the following issues have arose:
+- On footer page, address email and contact number are non reactive. This will be fixed before final submission
+- On contact page users were able to click send and be brought to Thank You message page without filling in any details
+- On contact page, box appearing too long due to padding added to space out on mobile.
+- Images on gallery page take too long to load on some tests however could be down to poor computer system currently in use. 
+
+
 ## Deployment
+<hr>
+
+This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
+
+In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
+
+Different values for environment variables (Heroku Config Vars)?
+Different configuration files?
+Separate git branch?
+In addition, if it is not obvious, you should also describe how to run your code locally.
 
 ## Credits
+<hr>
 
 ## Content
-•	The text for section Y was copied from the Wikipedia article Z
+- The text for Why do muay thai section was copied from the website [Fight City Gym](https://fightcitygym.co.uk/2018/12/13/what-are-the-physical-and-mental-benefits-of-muay-thai-training/)
+
+- The text for FAQ section was copied from [Thai Works Gym FAQ page](https://www.thaiworksgym.co.uk/faq) 
+
+- The opacity css styling used in Schedule and Contact page sections was taken from [Coder Coder](https://www.youtube.com/watch?v=LQsjNmkqUOc)
 
 ## Media
-•	The photos used in this site were obtained from ...
+- The photos used in this site were obtained from [Unsplash](https://unsplash.com/s/photos/boxing). 
+    - Photos were taken by [Jon Tomas](https://unsplash.com/@jotomas)
+    - Photos were taken by [Logan Weaver](https://unsplash.com/@lgnwvr)
+    - Photos were taken by [Attentie Attentie](https://unsplash.com/@attentieattentie)
+    - Photos were taken by [Lorenzo Fattò Offidani](https://unsplash.com/@lollish)
+    - Photos were taken by [Alex Harmuth](https://unsplash.com/@a_harmuth)
+    - Photos were taken by [Daniil Zanevskiy](https://unsplash.com/@danil_zan)
+    - Photos were taken by [Nick Wang](https://unsplash.com/@nickwang14)
 
+- The video used in this project was obtained from [Jeff Sainlar](https://www.youtube.com/watch?v=qJAVT5heeCo)
 ## Acknowledgements
-•	I received inspiration for this project from X
+•	I received inspiration for this project from 
 
