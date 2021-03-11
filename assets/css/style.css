@@ -158,8 +158,7 @@ main {
 
 video {
     width: 100vw;
-    height: 500px;
-    background-image: url("../images/jon-tomas-mt.jpg");
+    height: 400px;
     object-fit: cover;
     background-color: #111111;
 }
@@ -255,7 +254,7 @@ video {
 }
 
 .faq h2 {
-    padding: 20px;
+    padding-bottom: 20px;
     color: #f7f7f7;
 }
 
@@ -385,12 +384,13 @@ video {
     text-align: center;
     color: #111111;
     font-size: 225%;
-    font-weight: 600;
+    font-weight: 800;
 }
 
 .contact-pg .container .row {
     padding-bottom: 50px;
 }
+
 
 /*-------------------------- Contact Info */
 
@@ -417,18 +417,19 @@ video {
 
 .contact-info .box p {
     font-size: 125%;
-    font-weight: 400;
+    font-weight: 500;
     color: #f7f7f7;
 }
 
 .contact-info .box address {
     font-size: 125%;
-    font-weight: 400;
+    font-weight: 500;
     color: #f7f7f7;
 }
 
 .contact-info .box a {
     color: #f7f7f7;
+    text-decoration: none;
 }
 
 /*-------------------------- Contact Form */
@@ -438,6 +439,7 @@ video {
     border: solid 1px;
     width: 50% !important;
     background-color: #111111;
+    text-align: center;
 }
 
 .contact-form h4 {
@@ -493,7 +495,6 @@ video {
     font-weight: 600;
     color: #f7f7f7;
     text-align: center;
-    text-decoration: underline;
 }
 
 .thank-you p {
@@ -583,8 +584,8 @@ video {
 /*-------------------------------- Footer */
 
 footer {
-    min-height: 25rem;
-    width: 100vw;
+    min-height: 26rem;
+    width: 100%;
     background-color:#111111;
     font-family: "Lexend Mega", sans-serif;
     color: #f7f7f7;
@@ -594,15 +595,6 @@ footer {
 footer .container {
     padding: 0;
     margin: 0;
-}
-
-#soc-med-position {
-    width: 100%;
-}
-
-#soc-med-position ul {
-    float: right;
-
 }
 
 .inner-footer {
@@ -619,20 +611,20 @@ footer .container {
     border: 0;
 }
 
-.mapouter{
-    position:relative;
-    text-align:center;
+.mapouter {
+    position: relative;
+    text-align: center;
     bottom: 0px;
-    height:200px;
-    width:100%;
+    height: 200px;
+    width: 100%;
     box-sizing: content-box;
 }
 
 .gmap-canvas {
-    overflow:hidden;
-    background:none!important;
+    overflow: hidden;
+    background: none!important;
     height:200px;
-    width:100%;
+    width: 100%;
     box-sizing: content-box;
 }
 
@@ -640,7 +632,7 @@ footer .container {
 
 .contact-us {
     padding: 15px;
-    width: 100%;
+    width: 50%;
 }
 
 .contact-us-heading {
@@ -657,6 +649,7 @@ footer .container {
     text-decoration: none;
     list-style: none;
     text-shadow: -0.3px -0.3px 0 #F1CB00, 0.3px -0.3px 0 #F1CB00, -0.3px 0.3px 0 #F1CB00, 0.3px 0.3px 0 #F1CB00;
+    padding: 2px 0;
 }
 
 .contact-us li a {
@@ -666,11 +659,12 @@ footer .container {
 
 }
 
+
 /*-------------------------- Social Media */
 
 .social-media {
     position: absolute;
-    width: 100%;
+    width: 50%;
     right: 5px;
     bottom: 5px;
 }

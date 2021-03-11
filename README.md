@@ -1,13 +1,17 @@
 # Project Name - Tarbh Dubh Muay Thai
 
+12/02/2021
+
 The purpose of this project is the create an online platform for Tarbh Dubh Muay Thai to 
 provide it users a way of being able to interact with the gym and find important information 
 regarding class schedule, resources on offer, membership plans/prices, contact info, address etc. 
+
 In addition, this is also for Tarbh Dubh Muay Thai to allow them to have a presence online and 
 help drive more members and inquiries to join. It will do this by highlighting the excitement 
 of muay thai and the health benefits it offers while traversing through an easy to navigate website. 
 
 ## UX
+<hr>
 The UX for this project will be investigated through the following five planes:
 
 ### Strategy Plane:
@@ -38,8 +42,9 @@ engaged immediately but also be able to see where price and location is. Muay th
 a FAQ section may also proof to be beneficial
 
 Why do you go there in particular? <br>
-To check times, schedule, contact, location and prices
-What makes a good experience? 
+To check opening times, schedule, contact, location and prices
+
+What makes a good experience? <br>
 Ease of access to information needs to be paramount which means a simple site structure. To attract new 
 users to join, the site needs to be catchy and engaging from the jump. 
 
@@ -140,6 +145,8 @@ come to site it will most likely be on mobile.
 
 - When I come to the site, all this information needs to be easily obtainable.
 
+<br>
+
 ### The Structure Plane:
 Information architecture: <br>
 Based off the info in Strategy and Scope, a tree structure list seems to be the most appropriate structure the model 
@@ -159,15 +166,19 @@ decision to join.
 - Footer will contain map showing location, business contact info and social media links. 
 - Gallery and Contact Us are easily accessible.
 
+<br>
+
 ### Skeleton Plane:
 [Link to wireframes](../assets/wireframes)
+
+<br>
 
 ### The Surface plane:
 Font: Will be a mix of “Lexend Mega” and “Nunito Sans” 
 
-Color: Primary color will be black and lighter shades of this. Secondary color will be Gold. 
+Color: Primary color will be black and lighter shades of this. Secondary color will be Gold. Color scheme was decided using [Canva Color Wheel](https://www.canva.com/colors/color-wheel/)
 
-Images have all been selected from image sharing sites and will be appropriately linked in the media section in 
+Images have all been selected from image sharing sites and have been appropriately linked in the media section in 
 credits
 
 Iframe video is video made from friend who’s page will be appropriately linked in the Media section in Credits. 
@@ -175,66 +186,75 @@ Iframe video is video made from friend who’s page will be appropriately linked
 
 ## Features:
 <hr>
+12/02/2021
+
 This project will be composed of three main pages. The Home/index.html, the gallery page and the contact page.
 
 Each page will have the exact same header and footer to promote familiarity. 
 
-Header will have logo/business name and a nav bar to navigate through the site. By clicking logo users will be 
-brought back to homepage. On Homepage and Anchor drop nav bar will be added to allow users quick and easy 
+Header:
+- Will have logo/business name and a nav bar to navigate through the site. 
+- By clicking logo, users will be brought back to homepage. 
+- On Homepage an Anchor drop nav bar will be added to allow users quick and easy 
 navigation through homepage.
 
-Footer will have business contact info, a map to the business location and social media links (facebook, Instagram, youtube)
+Footer:
+- Will have business contact info, a map to the business location and social media links (facebook, Instagram, youtube)
 
 Home Page:
 Will be structured in the following manner:
 <br>
-Iframe video: highlighting the excitement of muay thai through video from youtube. When condensed to mobile, video 
+- Iframe video: highlighting the excitement of muay thai through video from youtube. When condensed to mobile, video 
 will appear as a youtube link.
-About us: Describing why someone should do muay thai. Offer collapsible “see more” arrows
+- About us: Describing why someone should do muay thai. Offer collapsible “see more” arrows
 Schedule/pricing: show a 7-day schedule and offer pricing. This can be done through <table> however may look for 
 something on bootstrap to perform functionality
-FAQ: offer most asked questions by beginners. Will share similar functionality to how the about us in terms of 
+- FAQ: offer most asked questions by beginners. Will share similar functionality to how the about us in terms of 
 collapsible “see more” arrows/info
-Testimonials: 4 reviews from current/past users to help highlight you new users should join.
+- Testimonials: 4 reviews from current/past users to help highlight you new users should join.
 <br>
 
 Gallery Page:
-Will host the photos of the gym of people working hard. 
-Want to try and implement a hover feature on each photo so that when a user hovers cursor over image it 
-expands to take up full screen size. 
+- Will host the photos of the gym of people working hard. 
+- ~~Want to try and implement a hover feature on each photo so that when a user hovers cursor over image it 
+expands to take up full screen size.~~ Have decided against this hover feature. Did not have desired effect. 
+
 
 Contact us:
-Will offer a form requesting name, email, contact number and query area to allow for users to communicate 
+- Will offer a form requesting name, email, contact number and query area to allow for users to communicate 
 easily with gym. 
-Will also have opening hours and welcome message. 
-When user selects Submit, I want to show that their application has been processed. 
+- Will also have opening hours and welcome message. 
+- When user selects Submit, I want to show that their application has been processed. 
 Thank you for your message. A member of staff will be in contact shortly. 
 
+09/03/2021
 
 ### Existing Features/Future features
 Features Implemented: <br>
-    • Navigation to navigate through website. Each navigation element reacts when hovered on
-    - Anchor drop navigation added to homepage
-    - Video embedded to site. 
-    - video changes to image when hits mobile
-    - schedule collapses when on mobile device
-    - faq have collapsible read more feature
-    - testimonials on carrousel
-    - google map of location added to footer on every page
-    - gallery consists of images sourced from unsplash.com
-    - contact page consists of contact info and contact form
-    - when you click send on contact page you are brought through to seperate page informing you that message has been sent
+- Navigation to navigate through website. Each navigation element reacts when hovered on
+- Anchor drop navigation added to homepage
+- Video embedded to site. 
+- video changes to image when hits mobile
+- schedule collapses when on mobile device
+- faq have collapsible read more feature
+- testimonials on carrousel
+- google map of location added to footer on every page
+- gallery consists of images sourced from unsplash.com
+- contact page consists of contact info and contact form
+- when you click send on contact page you are brought through to seperate page informing you that message has been sent
 
 ### Features Left to Implement
-    •	links for email and tel to be clickable throughout site
-    •   contact info added to contact form to be necessary before send button becomes available
+- links for email and tel to be clickable throughout site
+- contact info added to contact form to be necessary before send button becomes available
 
-### Features decided against
-- hover over feature on gallery images to allow to take full screen size. Did not add anything when implemented 
-- 
+### Features Decided against
+- Hover over feature on gallery images to allow to take full screen size. Did not add anything when implemented 
+- Merch addition. Could always add gallery but would prefer to add ecom set up at later date perhaps
 
 ## Technologies Used
 <hr>
+12/02/2021
+
 This project will primarily be made up of HTML and CSS with elements of Bootstrap thrown in. 
 
 HTML: Used to make framework and content of the site
@@ -244,6 +264,7 @@ CSS: Used to style this content and the webpage as a whole
 Bootstrap: In initial stages will be used to create table in the Schedule/Pricing section. 
 More to follow.
 
+09/03/2021
 - HTML: 
     - Used to create general framework of site.
 
@@ -251,8 +272,8 @@ More to follow.
     - Project uses Bootstrap to initially add [grid structure](https://getbootstrap.com/docs/5.0/layout/grid/). 
     - Project uses bootstrap for [header navigation](https://getbootstrap.com/docs/5.0/components/navbar/)
     - Project uses bootstrap to add [hamburger toggler for mobile device.](https://getbootstrap.com/docs/5.0/components/navbar/#toggler) 
-    - Project uses bootstrap to add [collapsible](https://getbootstrap.com/docs/5.0/components/collapse/#multiple-targets) read more for faqs, 
-    - Project uses bootstrap to add [carousel](https://getbootstrap.com/docs/5.0/components/carousel/#dark-variant) for testimonials, 
+    - Project uses bootstrap to add [collapsible](https://getbootstrap.com/docs/5.0/components/collapse/#multiple-targets) read more for faqs
+    - Project uses bootstrap to add [carousel](https://getbootstrap.com/docs/5.0/components/carousel/#dark-variant) for testimonials
     - Project uses bootstrap to add contact [form](https://getbootstrap.com/docs/5.0/forms/floating-labels/) for contact page. 
 
 - CSS: 
@@ -261,9 +282,13 @@ More to follow.
 
 ## Testing
 <hr>
+12/02/2021
+
 After each milestone has been complete, a series of tests will be run and results documented in this section.
 All HTML and CSS will go through relevant testing sites to ensure all has been T’s have been crossed and i’s have 
 been dotted.
+
+09/03/2021
 
 After rigourous testing through use of friends and family members, the following issues have arose:
 - On footer page, address email and contact number are non reactive. This will be fixed before final submission
@@ -271,6 +296,15 @@ After rigourous testing through use of friends and family members, the following
 - On contact page, box appearing too long due to padding added to space out on mobile.
 - Images on gallery page take too long to load on some tests however could be down to poor computer system currently in use. 
 
+
+10/03/2021
+
+Work to fix outlined bugs/issues highlighted on 09/03/2021:
+- On footer page, address email and contact number are non reactive. This has now been fixed. Issue was down to social-media and contact-us widths colliding. Reduced width to 50% and issue has been fixed. 
+- On contact page users were able to click send and be brought to Thank You message page without filling in any details. This has now been fixed. Added form parent elememt and required class to necessary fields. However when this was performed I noticed that users were not brought to thankyou.html. This has now been fixed by adding action="thankyou.html" to form. 
+
+
+<br>
 
 ## Deployment
 <hr>
@@ -283,6 +317,8 @@ Different values for environment variables (Heroku Config Vars)?
 Different configuration files?
 Separate git branch?
 In addition, if it is not obvious, you should also describe how to run your code locally.
+
+<br>
 
 ## Credits
 <hr>
@@ -304,7 +340,15 @@ In addition, if it is not obvious, you should also describe how to run your code
     - Photos were taken by [Daniil Zanevskiy](https://unsplash.com/@danil_zan)
     - Photos were taken by [Nick Wang](https://unsplash.com/@nickwang14)
 
-- The video used in this project was obtained from [Jeff Sainlar](https://www.youtube.com/watch?v=qJAVT5heeCo)
+- The video used in this project was obtained from [Jeff Sainlar-Art of Muay Thai](https://www.youtube.com/watch?v=qJAVT5heeCo)
+
 ## Acknowledgements
-•	I received inspiration for this project from 
+- I received inspiration for this project from many sources however mainly from my own interest in Muay Thai and lofty dreams to open my own gym some day. 
+- The color scheme of black and gold is synonymous with champion status in Muay thai and combat sports so wanted to preserve this with the project. 
+- The name Tarbh Dubh is an irish name which translates as Black Bull. These reasons helped me arrive at name. The inspiration behind this name is derived from the following:
+    - This year marks the chinese new year of the ox/Bull
+    - The name Black Bulls is a fictional team name of group in anime/manga series Black Clover. 
+    - My family home is in place called Templenaboe which translates as Temple of the Cow. 
+
+
 
