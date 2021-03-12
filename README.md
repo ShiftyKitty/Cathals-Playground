@@ -304,6 +304,14 @@ Work to fix outlined bugs/issues highlighted on 09/03/2021:
 - On contact page users were able to click send and be brought to Thank You message page without filling in any details. This has now been fixed. Added form parent elememt and required class to necessary fields. However when this was performed I noticed that users were not brought to thankyou.html. This has now been fixed by adding action="thankyou.html" to form. 
 
 
+12/03/2021
+Following testing and peer review with tutor Dick Vlaanderen, the following issues have now come to my attention.
+- Email text area on contact form accepts any text and not specifically email only... Has now been fixed. 
+- Horizontal scroll bar appearing when reduce screen size. Will test on mobile and tablet devices to check... Has now been fixed. 
+- Schedule & Pricing section looks cluttered. Will attempt to add collapsible options similar to FAQ section where user clicks on day an schedule appears. 
+
+
+
 <br>
 
 ## Deployment

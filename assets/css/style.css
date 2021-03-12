@@ -10,8 +10,10 @@ html {
 }
 
 body {
-    width: 100vw;
+    width: 100%;
     min-height: 100vh;
+    background-color: #111111;
+    overflow-x: hidden;
 }
 
 h1,
@@ -29,7 +31,7 @@ h6 {
 
 header {
     font-family: "Lexend Mega", sans-serif;
-    width: 100vw;
+    width: 100%;
     background-color: #111111;
     position: relative;
     margin: 0 auto;
@@ -142,7 +144,7 @@ header {
 /*-------------------------- Main */
 
 main {
-    width: 100vw;
+    width: 100%;
 }
 
 /*-------------------------- Video */
@@ -157,7 +159,7 @@ main {
 }
 
 video {
-    width: 100vw;
+    width: 100%;
     height: 400px;
     object-fit: cover;
     background-color: #111111;
@@ -360,7 +362,7 @@ video {
 .contact-pg {
     background-color: #D1B100;
     margin: 0 auto;
-    width: 100vw;
+    width: 100%;
     min-height: 950px;
 
     position: relative;
@@ -600,6 +602,7 @@ footer .container {
 .inner-footer {
     position: absolute;
     width: 100%;
+    background-color: #111111;
 }
 
 /*-------------------------- Map Container */
@@ -695,7 +698,7 @@ footer .container {
 }
 
 .social-media li a i:hover {
-     width: 17px;
+    width: 17px;
     height: 17px;
     padding: 15px;
     border-radius: 50%;
@@ -716,7 +719,7 @@ footer .container {
 
 @media screen and (max-width: 768px) {
     .my-nav .navbar-brand h1 {
-        padding-left: 20px;
+        padding: 0;
         text-align: center;
         margin: 0 auto;
         font-size: 140%;
@@ -749,6 +752,7 @@ footer .container {
         width: 400px;
         height: 60%;
         margin: 5px auto;
+        border: solid 1px white;
     }
 
 
@@ -758,16 +762,17 @@ footer .container {
         margin: 0 auto;
         position: relative;
         bottom: 5%;
-        right: 2.5%;
+        right: 5%;
     }
 
     .social-media ul li{
+        margin: 0 auto;
         padding: 20px;
     }
 }
 
 @media screen and (max-width: 600px) {
-    .inner-footer{
+    .inner-footer {
         position: relative;
         width: 500px;
         height: 375px;
@@ -779,16 +784,17 @@ footer .container {
         width: 400px;
         height: 60%;
         margin: 5px auto;
+        border: solid 1px white;
     }
 
 
     .social-media {
-        width: 400px;
         height: 40%;
         margin: 0 auto;
         position: relative;
         bottom: 5%;
-        right: 2.5%;
+        right: 5%;
+        
     }
 
     .social-media ul li{
