@@ -305,11 +305,14 @@ Work to fix outlined bugs/issues highlighted on 09/03/2021:
 
 
 12/03/2021
-Following testing and peer review with tutor Dick Vlaanderen, the following issues have now come to my attention.
+From testing and peer review with tutor Dick Vlaanderen, the following issues have now come to my attention.
 - Email text area on contact form accepts any text and not specifically email only... Has now been fixed. 
 - Horizontal scroll bar appearing when reduce screen size. Will test on mobile and tablet devices to check... Has now been fixed. 
 - Schedule & Pricing section looks cluttered. Will attempt to add collapsible options similar to FAQ section where user clicks on day an schedule appears. 
 
+
+15/03/2021
+- Schedule & Pricing section has now been altered to add collapsible display options for each day of the week. Looks considerably better and helps create further engagement with project. 
 
 
 <br>
@@ -353,7 +356,7 @@ In addition, if it is not obvious, you should also describe how to run your code
 ## Acknowledgements
 - I received inspiration for this project from many sources however mainly from my own interest in Muay Thai and lofty dreams to open my own gym some day. 
 - The color scheme of black and gold is synonymous with champion status in Muay thai and combat sports so wanted to preserve this with the project. 
-- The name Tarbh Dubh is an irish name which translates as Black Bull. These reasons helped me arrive at name. The inspiration behind this name is derived from the following:
+- The name Tarbh Dubh is an irish name which translates as Black Bull. The inspiration behind this name is derived from the following:
     - This year marks the chinese new year of the ox/Bull
     - The name Black Bulls is a fictional team name of group in anime/manga series Black Clover. 
     - My family home is in place called Templenaboe which translates as Temple of the Cow. 

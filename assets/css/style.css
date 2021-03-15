@@ -89,6 +89,7 @@ header {
 
 .navbar-collapse {
     margin: 0 auto;
+    text-align: center;
 }
 
 /*------------------------------ Homepage */
@@ -198,7 +199,7 @@ video {
     background-color:#D1B100;
     position: relative;
     width: 100%;
-    min-height: 850px;
+    min-height: 700px;
     text-align: center;
     overflow: auto; 
     padding: 40px;
@@ -224,9 +225,9 @@ video {
 
 .schedule h4 {
     position: relative;
-    padding: 10px;
-    text-decoration: underline;
     font-weight: 600;
+    font-size: 1rem;
+    margin: 0;
 }
 
 .schedule-days {
@@ -238,6 +239,43 @@ video {
     font-weight: 500;
 }
 
+.schedule-days .btn {
+    background-color: #2B2B2B;
+    width: 216px;
+    padding: 0;
+    border: solid 1px #f7f7f7;
+}
+
+.schedule-days .btn h4 {
+    color: #f7f7f7;
+    padding: 10px 0;
+}
+
+.schedule-sun-price h4 {
+    background-color: #2B2B2B;
+    color: #f7f7f7;
+    padding: 10px 0;
+    border: solid 1px #f7f7f7;
+    margin: 0 auto;
+    margin-bottom: 16px;
+    width: 216px;
+    border-radius: 0.25rem;
+}
+
+.sun-price-card {
+    background-color: #f7f7f7;
+    width: 60%;
+    margin: 0 auto;
+    padding: 16px;
+    border-radius: 0.25rem;
+}
+
+.schedule-days .btn h4:hover {
+    color: #2B2B2B;
+    background-color: #f7f7f7;
+    padding: 10px 0;
+    text-decoration: underline;
+}
 
 .bg-img-schedule {
     margin: 0 auto;
@@ -274,6 +312,7 @@ video {
 .faq-container .btn {
     background-color: #D1B100;
 }
+
 
 .faq-container .btn i {
     color: #f7f7f7;
@@ -364,7 +403,6 @@ video {
     margin: 0 auto;
     width: 100%;
     min-height: 950px;
-
     position: relative;
 }
 
@@ -408,7 +446,7 @@ video {
     padding: 10px;
     margin: 0 auto;
     text-align: center;
-    
+    border-radius: 0.5rem; 
 }
 
 .contact-info .box h5 {
@@ -442,6 +480,7 @@ video {
     width: 50% !important;
     background-color: #111111;
     text-align: center;
+    border-radius: 0.5rem;
 }
 
 .contact-form h4 {
@@ -479,6 +518,7 @@ video {
     border: solid 1px;
     background-color: #f7f7f7;
     font-weight: 600;
+    margin-bottom: 13px;
 }
 
 .submit-btn button:hover {
@@ -488,6 +528,7 @@ video {
     background-color: #D1B100;
     margin: 0 auto;
     font-weight: 600;
+    margin-bottom: 13px;
 }
 
 /*-------------------------- Thank You */
@@ -505,83 +546,6 @@ video {
     color: #f7f7f7;
     text-align: center;
 }
-/*
-.contact-pg-box {
-    width: 100%;
-    height: 100%;
-    position: relative;
-}
-
-.welcome-msg {
-    border: solid 1px;
-    background-color: #f7f7f7;
-    padding: 20px;
-    width: 20vw;
-    margin-bottom: 10px;
-    
-}    
-
-.welcome-msg p {
-    font-size: 125%;
-    font-weight: 600;
-    color: #111111;
-
-}  
-
-.opening-hours {
-    border: solid 1px;
-    background-color: #f7f7f7;
-    
-    padding: 20px;
-    width: 20vw;
-
-}
-
-.opening-hours h5 {
-    font-size: 125%;
-    font-weight: 600;
-    color: #111111;
-}
-
-.opening-hours p {
-    font-size: 125%;
-    font-weight: 600;
-    color: #111111;
-}
-
-.contact-form {
-    
-    
-    width: 20%;
-    min-height: 100%;
-
-    background-color: #f7f7f7;
-    border: solid 1px;
-}
-
-.name {
-    margin-bottom: 10px;
-    border: none;
-}
-
-.email {
-    margin-bottom: 10px;
-}
-
-.cont-number {
-    margin-bottom: 10px;
-}
-
-.query-form {
-    padding-bottom: 50px;
-
-}
-
-.query-form textarea {
-    padding-bottom: 50px;
-
-}
-*/
 
 /*-------------------------------- Footer */
 
@@ -742,7 +706,7 @@ footer .container {
 
     .inner-footer{
         position: relative;
-        width: 500px;
+        width: 100%;
         height: 375px;
         text-align: center;
         margin: 0 auto;
@@ -752,7 +716,6 @@ footer .container {
         width: 400px;
         height: 60%;
         margin: 5px auto;
-        border: solid 1px white;
     }
 
 
@@ -774,7 +737,7 @@ footer .container {
 @media screen and (max-width: 600px) {
     .inner-footer {
         position: relative;
-        width: 500px;
+        width: 100%;
         height: 375px;
         text-align: center;
         margin: 0 auto;
@@ -784,7 +747,6 @@ footer .container {
         width: 400px;
         height: 60%;
         margin: 5px auto;
-        border: solid 1px white;
     }
 
 
