@@ -314,6 +314,16 @@ From testing and peer review with tutor Dick Vlaanderen, the following issues ha
 15/03/2021
 - Schedule & Pricing section has now been altered to add collapsible display options for each day of the week. Looks considerably better and helps create further engagement with project. 
 
+16/03/2021
+Deployed site to mobile and tablet to test further. Mobile used was Google Pixel 4a and Iphone 6SE. The following issues arised with screenshots attached. 
+- Main project heading was overflowing the edge on mobile device. Have now changed font size on screens of max-width 600px. 
+- Image that shows on mobile device rather than video did not appear on mobile device. Have changed relative path from ../assets/images/jon-tomas-mt.jpg to assets/images/jon-tomas-mt.jpg to fix. 
+- In addition, gallery images also not appearing. Have changed relative path by removing ../ to see if this resolves. 
+- Sunday and Pricing parts on mobile did not appear well in comparison with the collapsible schedule. Have increased width to 100% on screens of max-width 600px to fix.  
+- Testimonials section was not responding on smaller screen sizes resulting in squished wording. Have reduced size and repositioned on mobile to resolve. 
+- Footer section was not aligned on mobile with contents of footer slightly shifting off line to the right. Have changed width from px to % to allow for responsiveness to happen.
+- Contact page all content appeared squished on mobile. Have changed width to 90% on screens of max-width 600px to take up more screen real estate. 
+ 
 
 <br>
 
