@@ -147,7 +147,7 @@ come to site it will most likely be on mobile.
 
 <br>
 
-### The Structure Plane:
+### Structure Plane:
 Information architecture: <br>
 Based off the info in Strategy and Scope, a tree structure list seems to be the most appropriate structure the model 
 this project on. 
@@ -169,11 +169,15 @@ decision to join.
 <br>
 
 ### Skeleton Plane:
-[Link to wireframes](../assets/wireframes)
-
+Desktop Wireframes:
+![Desktop Wireframes](assets/wireframes/MS1DesktopWireframes.PNG) <br>
+Tablet Wireframes:
+![Tablet Wireframes](assets/wireframes/MS1TabletWireframes.PNG) <br>
+Mobile Wireframes:
+![Mobile Wireframes](assets/wireframes/MS1MobWireframes.PNG)
 <br>
 
-### The Surface plane:
+### Surface plane:
 Font: Will be a mix of “Lexend Mega” and “Nunito Sans” 
 
 Color: Primary color will be black and lighter shades of this. Secondary color will be Gold. Color scheme was decided using [Canva Color Wheel](https://www.canva.com/colors/color-wheel/)
@@ -201,9 +205,8 @@ navigation through homepage.
 Footer:
 - Will have business contact info, a map to the business location and social media links (facebook, Instagram, youtube)
 
-Home Page:
+Home Page:<br>
 Will be structured in the following manner:
-<br>
 - Iframe video: highlighting the excitement of muay thai through video from youtube. When condensed to mobile, video 
 will appear as a youtube link.
 - About us: Describing why someone should do muay thai. Offer collapsible “see more” arrows
@@ -215,6 +218,7 @@ collapsible “see more” arrows/info
 <br>
 
 Gallery Page:
+
 - Will host the photos of the gym of people working hard. 
 - ~~Want to try and implement a hover feature on each photo so that when a user hovers cursor over image it 
 expands to take up full screen size.~~ Have decided against this hover feature. Did not have desired effect. 
@@ -234,20 +238,20 @@ Features Implemented: <br>
 - Navigation to navigate through website. Each navigation element reacts when hovered on
 - Anchor drop navigation added to homepage
 - Video embedded to site. 
-- video changes to image when hits mobile
-- schedule collapses when on mobile device
-- faq have collapsible read more feature
-- testimonials on carrousel
-- google map of location added to footer on every page
-- gallery consists of images sourced from unsplash.com
-- contact page consists of contact info and contact form
-- when you click send on contact page you are brought through to seperate page informing you that message has been sent
+- Video changes to image when hits mobile
+- Schedule collapses when on mobile device
+- Faq have collapsible read more feature
+- Testimonials on carrousel
+- Google map of location added to footer on every page
+- Gallery consists of images sourced from unsplash.com
+- Contact page consists of contact info and contact form
+- When you click send on contact page you are brought through to seperate page informing you that message has been sent
 
 ### Features Left to Implement
-- links for email and tel to be clickable throughout site
-- contact info added to contact form to be necessary before send button becomes available
+- Links for email and tel to be clickable throughout site
+- Contact info added to contact form to be necessary before send button becomes available
 
-### Features Decided against
+### Features Decided Against
 - Hover over feature on gallery images to allow to take full screen size. Did not add anything when implemented 
 - Merch addition. Could always add gallery but would prefer to add ecom set up at later date perhaps
 
@@ -301,29 +305,45 @@ After rigourous testing through use of friends and family members, the following
 
 Work to fix outlined bugs/issues highlighted on 09/03/2021:
 - On footer page, address email and contact number are non reactive. This has now been fixed. Issue was down to social-media and contact-us widths colliding. Reduced width to 50% and issue has been fixed. 
-- On contact page users were able to click send and be brought to Thank You message page without filling in any details. This has now been fixed. Added form parent elememt and required class to necessary fields. However when this was performed I noticed that users were not brought to thankyou.html. This has now been fixed by adding action="thankyou.html" to form. 
+- On contact page users were able to click send and be brought to Thank You message page without filling in any details. This has now been fixed. Added form parent element and required class to necessary fields. However when this was performed I noticed that users were not brought to thankyou.html. This has now been fixed by adding action="thankyou.html" to form. 
 
 
-12/03/2021
+12/03/2021 <br>
 From testing and peer review with tutor Dick Vlaanderen, the following issues have now come to my attention.
 - Email text area on contact form accepts any text and not specifically email only... Has now been fixed. 
 - Horizontal scroll bar appearing when reduce screen size. Will test on mobile and tablet devices to check... Has now been fixed. 
-- Schedule & Pricing section looks cluttered. Will attempt to add collapsible options similar to FAQ section where user clicks on day an schedule appears. 
+- Schedule & Pricing section looks cluttered, especially on smaller devices. Will attempt to add collapsible options similar to FAQ section where user clicks on day an schedule appears. 
 
 
-15/03/2021
-- Schedule & Pricing section has now been altered to add collapsible display options for each day of the week. Looks considerably better and helps create further engagement with project. 
+15/03/2021 <br>
+Schedule & Pricing section has now been altered to add collapsible display options for each day of the week. Looks considerably better and helps create further engagement with project. 
 
-16/03/2021
-Deployed site to mobile and tablet to test further. Mobile used was Google Pixel 4a and Iphone 6SE. The following issues arised with screenshots attached. 
-- Main project heading was overflowing the edge on mobile device. Have now changed font size on screens of max-width 600px. 
-- Image that shows on mobile device rather than video did not appear on mobile device. Have changed relative path from ../assets/images/jon-tomas-mt.jpg to assets/images/jon-tomas-mt.jpg to fix. 
-- In addition, gallery images also not appearing. Have changed relative path by removing ../ to see if this resolves. 
-- Sunday and Pricing parts on mobile did not appear well in comparison with the collapsible schedule. Have increased width to 100% on screens of max-width 600px to fix.  
-- Testimonials section was not responding on smaller screen sizes resulting in squished wording. Have reduced size and repositioned on mobile to resolve. 
-- Footer section was not aligned on mobile with contents of footer slightly shifting off line to the right. Have changed width from px to % to allow for responsiveness to happen.
-- Contact page all content appeared squished on mobile. Have changed width to 90% on screens of max-width 600px to take up more screen real estate. 
- 
+16/03/2021 <br>
+Deployed site to mobile and tablet to test further. Mobile used was Google Pixel 4a and Iphone 6SE. Tablet used was Samsung Galaxy Tab A. The following issues arised with screenshots attached. 
+- Main project heading was overflowing the edge on mobile device. Have now changed font size on screens of max-width 600px. ![Overflow Issue](testing/images/h1overflowmob.png)
+
+- Image that shows on mobile and tablet device rather than video did not appear. Have changed relative path from ../assets/images/jon-tomas-mt.jpg to assets/images/jon-tomas-mt.jpg to fix. ![Image/Vid Issue](testing/images/mainphotomob.png)
+
+- In addition, gallery images also not appearing. Have changed relative path by removing ../ to see if this resolves. ![Gallery Issue](testing/images/gallerymob.png)
+
+- Sunday and Pricing parts on mobile and tablet did not appear well in comparison with the collapsible schedule. Have increased width to 100% on screens of max-width 600px and 768px to fix. ![Sunday and Price Issue](testing/images/sunandprice.png)
+
+- Testimonials section was not responding on smaller screen sizes resulting in squished wording. Have reduced size and repositioned on mobile to resolve. ![Testimonial Issue](testing/images/testimonialissue.png)
+
+- Footer section was not aligned on mobile and tablet with contents of footer slightly shifting off line to the right. Have changed width from px to % to allow for responsiveness to happen. ![Footer Mob issue](testing/images/footermob.png)
+
+- Contact page all content appeared squished on mobile and tablet. Have changed width to 90% on screens of max-width 600px to take up more screen real estate. ![Contact Page Issue](testing/images/contformmob.png)
+
+16/03/2021 (cont) <br>
+- Redeployed project to mobile following all changes listed above and all appear to be functioning correctly. 
+- Put HTML code through [W3C Markup Validation Service](https://validator.w3.org/) which brought back errors to fix. 
+- Put CSS code through [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/) which brought back errors to fix. 
+
+17/03/2021 <br>
+- Put HTML code through [W3C Markup Validation Service](https://validator.w3.org/) which now is presenting no issues after fixing.
+- Put CSS code through [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/) which now is presenting no issues after fixing.
+
+
 
 <br>
 
@@ -345,11 +365,13 @@ In addition, if it is not obvious, you should also describe how to run your code
 <hr>
 
 ## Content
-- The text for Why do muay thai section was copied from the website [Fight City Gym](https://fightcitygym.co.uk/2018/12/13/what-are-the-physical-and-mental-benefits-of-muay-thai-training/)
+- The text for Why do Muay Thai section was copied from the website [Fight City Gym](https://fightcitygym.co.uk/2018/12/13/what-are-the-physical-and-mental-benefits-of-muay-thai-training/)
 
 - The text for FAQ section was copied from [Thai Works Gym FAQ page](https://www.thaiworksgym.co.uk/faq) 
 
 - The opacity css styling used in Schedule and Contact page sections was taken from [Coder Coder](https://www.youtube.com/watch?v=LQsjNmkqUOc)
+
+- Google Map iframe was taken from [embedgooglemap.net](https://www.embedgooglemap.net/?gclid=Cj0KCQiAs5eCBhCBARIsAEhk4r7YZF_CTfsY100Th_bSmSwVZL4PQfFSnNAceY3cuJYA8riqM9wR8vYaAkVAEALw_wcB)
 
 ## Media
 - The photos used in this site were obtained from [Unsplash](https://unsplash.com/s/photos/boxing). 
