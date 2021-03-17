@@ -154,6 +154,10 @@ main {
     display: none;
 }
 
+.bg-vid-img img {
+    width: 100%
+}
+
 .video-container{
     width: 100%;
     background-color: #D1B100;
@@ -205,7 +209,7 @@ video {
     padding: 40px;
 }
 
-/*----styling came from coder coder. ref in media */
+/*----Styling came from coder coder. ref in Credits Section under Content */
 .schedule::before {
     content: '';
     position: absolute;
@@ -240,13 +244,21 @@ video {
 }
 
 .schedule-days .btn {
+    font-family: "Lexend Mega", sans-serif;
+    text-transform: uppercase;
     background-color: #2B2B2B;
+    position: relative;
+    font-weight: 600;
+    font-size: 1rem;
+    margin: 0;
+    margin-bottom: 16px;
     width: 216px;
     padding: 0;
     border: solid 1px #f7f7f7;
 }
 
-.schedule-days .btn h4 {
+.schedule-days h4 .btn  {
+    font-family: "Lexend Mega", sans-serif;
     color: #f7f7f7;
     padding: 10px 0;
 }
@@ -270,21 +282,14 @@ video {
     border-radius: 0.25rem;
 }
 
-.schedule-days .btn h4:hover {
+.schedule-days h4 .btn:hover {
     color: #2B2B2B;
     background-color: #f7f7f7;
     padding: 10px 0;
     text-decoration: underline;
 }
 
-.bg-img-schedule {
-    margin: 0 auto;
-    height: 100%;
-    width: 100%;
-}
-
 /*-------------------------- FAQ */
-
 .faq {
     text-align: center;
     background-color: #2B2B2B;
@@ -324,7 +329,6 @@ video {
 }
 
 /*-------------------------- Testimonials */
-
 .testimonials {
     background-color: #D1B100;
     width: 100%;
@@ -371,7 +375,6 @@ video {
 }
 
 /*----------------------------- Gallery Page */
-
 .gallery {
     background-color: #D1B100;
     margin: 0 auto;
@@ -389,17 +392,7 @@ video {
     width: 100%;
 }
 
-/*
-.gallery img:hover {
-    width: 100vw;
-    height: 100vh;
-    background-color: #f7f7f7;
-    background-size: cover;
-}
-*/
-
 /*----------------------------- Contact Page */
-
 .contact-pg {
     background-color: #D1B100;
     margin: 0 auto;
@@ -418,7 +411,7 @@ video {
     background-image: url("../images/Attentieattentieringwalk.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    opacity: 0.50;
+    opacity: 0.4;
 }
 
 .contact-pg h2 {
@@ -427,6 +420,7 @@ video {
     color: #111111;
     font-size: 225%;
     font-weight: 800;
+    position: relative;
 }
 
 .contact-pg .container .row {
@@ -435,7 +429,6 @@ video {
 
 
 /*-------------------------- Contact Info */
-
 .contact-info {
     margin-bottom: 50px;
 }
@@ -475,7 +468,6 @@ video {
 }
 
 /*-------------------------- Contact Form */
-
 .contact-form {
     margin: 0 auto;
     border: solid 1px;
@@ -513,7 +505,6 @@ video {
     margin: 0 auto;
 }
 
-
 .submit-btn button {
     font-weight: 600;
     color: #111111;
@@ -534,7 +525,6 @@ video {
 }
 
 /*-------------------------- Thank You */
-
 .thank-you h4 {
     font-size: 200%;
     font-weight: 600;
@@ -550,7 +540,6 @@ video {
 }
 
 /*-------------------------------- Footer */
-
 footer {
     min-height: 26rem;
     width: 100%;
@@ -572,7 +561,6 @@ footer .container {
 }
 
 /*-------------------------- Map Container */
-
 .map-container {
     position: absolute;
     top: 0;
@@ -592,13 +580,30 @@ footer .container {
 .gmap-canvas {
     overflow: hidden;
     background: none!important;
-    height:200px;
+    height: 200px;
     width: 100%;
+    border: 0;
+    overflow: hidden;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+    box-sizing: content-box;
+}
+
+.gmap-canvas iframe {
+    height: 200px;
+    width: 100%;
+    border: 0;
+    overflow: hidden;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
     box-sizing: content-box;
 }
 
 /*-------------------------- Contact Us */
-
 .contact-us {
     padding: 15px;
     width: 50%;
@@ -630,7 +635,6 @@ footer .container {
 
 
 /*-------------------------- Social Media */
-
 .social-media {
     position: absolute;
     width: 50%;
@@ -681,8 +685,7 @@ footer .container {
     box-sizing: content-box;
 }
 
-/*-------------------------- Media */
-
+/*-------------------------- Media Queries */
 @media screen and (max-width: 768px) {
     .my-nav .navbar-brand h1 {
         padding: 0;
@@ -704,6 +707,18 @@ footer .container {
         min-height: 600px;
         display: block;
         zoom: 20%;
+    }
+
+    .sun-price-card {
+        width: 100%;
+    }
+    
+    .contact-info .box {
+        width: 90%;
+    }
+
+    .contact-form {
+        width: 90% !important;
     }
 
     .inner-footer{
@@ -752,9 +767,8 @@ footer .container {
     }
 
     .sun-price-card {
-    width: 100%;
+        width: 100%;
     }
-
 
     .carousel-item {    
         height: 15rem;
@@ -779,7 +793,7 @@ footer .container {
     .carousel-item .carousel-caption h5 {
         position: absolute;
         font-weight: 600;
-        font-size: x-small;
+        font-size: 70%;
         width: 100%;
         height: 100%;
         text-align: center;
@@ -790,7 +804,7 @@ footer .container {
     .carousel-item .carousel-caption p {
         position: absolute;
         font-weight: 600;
-        font-size: x-small;
+        font-size: 70%;
         width: 100%;
         height: 100%;
         text-align: center;
