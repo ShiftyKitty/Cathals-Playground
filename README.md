@@ -292,7 +292,9 @@ After each milestone has been complete, a series of tests will be run and result
 All HTML and CSS will go through relevant testing sites to ensure all has been T’s have been crossed and i’s have 
 been dotted.
 
+
 <br>
+
 09/03/2021 <br>
 After rigourous testing through use of friends and family members, the following issues have arose:
 - On footer page, address email and contact number are non reactive. This will be fixed before final submission
@@ -302,23 +304,32 @@ After rigourous testing through use of friends and family members, the following
 
 <br>
 10/03/2021 <br>
+
 Work to fix outlined bugs/issues highlighted on 09/03/2021:
 - On footer page, address email and contact number are non reactive. This has now been fixed. Issue was down to social-media and contact-us widths colliding. Reduced width to 50% and issue has been fixed. 
 - On contact page users were able to click send and be brought to Thank You message page without filling in any details. This has now been fixed. Added form parent element and required class to necessary fields. However when this was performed I noticed that users were not brought to thankyou.html. This has now been fixed by adding action="thankyou.html" to form. 
+
 <br>
+
 12/03/2021 <br>
+
 From testing and peer review with tutor Dick Vlaanderen, the following issues have now come to my attention.
 - Email text area on contact form accepts any text and not specifically email only... Has now been fixed. 
 - Horizontal scroll bar appearing when reduce screen size. Will test on mobile and tablet devices to check... Has now been fixed. 
 - Schedule & Pricing section looks cluttered, especially on smaller devices. Will attempt to add collapsible options similar to FAQ section where user clicks on day an schedule appears. 
 
 <br>
+
 15/03/2021 <br>
+
 Schedule & Pricing section has now been altered to add collapsible display options for each day of the week. Looks considerably better and helps create further engagement with project. 
 
 <br>
+
 16/03/2021 <br>
+
 Deployed site to mobile and tablet to test further. Mobile used was Google Pixel 4a and Iphone 6SE. Tablet used was Samsung Galaxy Tab A. The following issues arised with screenshots attached. 
+
 - Main project heading was overflowing the edge on mobile device. Have now changed font size on screens of max-width 600px. ![Overflow Issue](testing/images/h1overflowmob.png)
 
 - Image that shows on mobile and tablet device rather than video did not appear. Have changed relative path from ../assets/images/jon-tomas-mt.jpg to assets/images/jon-tomas-mt.jpg to fix. ![Image/Vid Issue](testing/images/mainphotomob.png)
@@ -335,16 +346,21 @@ Deployed site to mobile and tablet to test further. Mobile used was Google Pixel
 
 <br>
 16/03/2021 (cont) <br>
+
 - Redeployed project to mobile following all changes listed above and all appear to be functioning correctly. 
 - Put HTML code through [W3C Markup Validation Service](https://validator.w3.org/) which brought back errors to fix. 
 - Put CSS code through [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/) which brought back errors to fix. 
 
 <br>
 17/03/2021 <br>
+
 - Put HTML code through [W3C Markup Validation Service](https://validator.w3.org/) which now is presenting no issues after fixing.
 - Put CSS code through [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/) which now is presenting no issues after fixing.
 
+<br>
+19/03/2021 <br>
 
+- Final testing takes place before submission through both local and remote deployment on desktop, mobile and tablet. No noticeable bugs appearing as far as I am aware. Overall, happy with how things turned out.
 
 <br>
 
@@ -354,7 +370,7 @@ Deployed site to mobile and tablet to test further. Mobile used was Google Pixel
 
 ### Development Life Cycle
 The progress and process of this project took many different shapes and sizes throughout, originally taking life as a completely seperate repo named MS1 Tarbh Dubh Muay Thai. 
-However early on, due to general lessons learnt and general frustration, I felt it would be better to start anew on a different repo. 
+However early on, due to lessons learned and general frustrations, I felt it would be better to start anew on a different repo. 
 
 This section is to document and show the development process of this project, adhering to the user goals/stories and wireframes established earlier in this README doc. 
 #### Header & Footer Draft 1
@@ -481,7 +497,11 @@ The final deploy of the footer remained very close to Draft 2 with the main chan
 
 Final Footer allowed for user to see exact location of the gym and contact info of gym and every page of website experience. Also allowed user to get through to gym social media accounts. 
 
-Final edit was to change repo name from Cathals Playground to MS1-TDMT-Gym.
+Edit was to change repo name from Cathals Playground to MS1-TDMT-Gym and to fix grammatical errors in this README file.
+
+Edit was made to video html code to add controls to video in accordance with assignment marking guide.
+
+
 
 ### How to Deploy?
 
@@ -523,11 +543,10 @@ Final edit was to change repo name from Cathals Playground to MS1-TDMT-Gym.
 
 ## Acknowledgements
 - I received inspiration for this project from many sources however mainly from my own interest in Muay Thai and lofty dreams to open my own gym some day. 
-- The color scheme of black and gold is synonymous with champion status in Muay thai and combat sports so wanted to preserve this with the project. 
 - The name Tarbh Dubh is an irish name which translates as Black Bull. The inspiration behind this name is derived from the following:
     - This year marks the chinese new year of the ox/Bull
     - The name Black Bulls is a fictional team name of group in anime/manga series Black Clover. 
     - My family home is in place called Templenaboe which translates as Temple of the Cow. 
 
-
+- The color scheme of black and gold is synonymous with champion status in Muay thai and combat sports so wanted to preserve this with the project. 
 
