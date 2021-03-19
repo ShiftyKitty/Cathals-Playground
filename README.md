@@ -230,9 +230,9 @@ easily with gym.
 - Will also have opening hours and welcome message. 
 - When user selects Submit, I want to show that their application has been processed. 
 Thank you for your message. A member of staff will be in contact shortly. 
+<br>
 
 09/03/2021
-
 ### Existing Features/Future features
 Features Implemented: <br>
 - Navigation to navigate through website. Each navigation element reacts when hovered on
@@ -267,8 +267,8 @@ CSS: Used to style this content and the webpage as a whole
 
 Bootstrap: In initial stages will be used to create table in the Schedule/Pricing section. 
 More to follow.
-
-09/03/2021
+<br>
+09/03/2021 <br>
 - HTML: 
     - Used to create general framework of site.
 
@@ -286,38 +286,37 @@ More to follow.
 
 ## Testing
 <hr>
-12/02/2021
-
+<br>
+12/02/2021 <br>
 After each milestone has been complete, a series of tests will be run and results documented in this section.
 All HTML and CSS will go through relevant testing sites to ensure all has been T’s have been crossed and i’s have 
 been dotted.
 
-09/03/2021
-
+<br>
+09/03/2021 <br>
 After rigourous testing through use of friends and family members, the following issues have arose:
 - On footer page, address email and contact number are non reactive. This will be fixed before final submission
 - On contact page users were able to click send and be brought to Thank You message page without filling in any details
 - On contact page, box appearing too long due to padding added to space out on mobile.
 - Images on gallery page take too long to load on some tests however could be down to poor computer system currently in use. 
 
-
-10/03/2021
-
+<br>
+10/03/2021 <br>
 Work to fix outlined bugs/issues highlighted on 09/03/2021:
 - On footer page, address email and contact number are non reactive. This has now been fixed. Issue was down to social-media and contact-us widths colliding. Reduced width to 50% and issue has been fixed. 
 - On contact page users were able to click send and be brought to Thank You message page without filling in any details. This has now been fixed. Added form parent element and required class to necessary fields. However when this was performed I noticed that users were not brought to thankyou.html. This has now been fixed by adding action="thankyou.html" to form. 
-
-
+<br>
 12/03/2021 <br>
 From testing and peer review with tutor Dick Vlaanderen, the following issues have now come to my attention.
 - Email text area on contact form accepts any text and not specifically email only... Has now been fixed. 
 - Horizontal scroll bar appearing when reduce screen size. Will test on mobile and tablet devices to check... Has now been fixed. 
 - Schedule & Pricing section looks cluttered, especially on smaller devices. Will attempt to add collapsible options similar to FAQ section where user clicks on day an schedule appears. 
 
-
+<br>
 15/03/2021 <br>
 Schedule & Pricing section has now been altered to add collapsible display options for each day of the week. Looks considerably better and helps create further engagement with project. 
 
+<br>
 16/03/2021 <br>
 Deployed site to mobile and tablet to test further. Mobile used was Google Pixel 4a and Iphone 6SE. Tablet used was Samsung Galaxy Tab A. The following issues arised with screenshots attached. 
 - Main project heading was overflowing the edge on mobile device. Have now changed font size on screens of max-width 600px. ![Overflow Issue](testing/images/h1overflowmob.png)
@@ -334,11 +333,13 @@ Deployed site to mobile and tablet to test further. Mobile used was Google Pixel
 
 - Contact page all content appeared squished on mobile and tablet. Have changed width to 90% on screens of max-width 600px to take up more screen real estate. ![Contact Page Issue](testing/images/contformmob.png)
 
+<br>
 16/03/2021 (cont) <br>
 - Redeployed project to mobile following all changes listed above and all appear to be functioning correctly. 
 - Put HTML code through [W3C Markup Validation Service](https://validator.w3.org/) which brought back errors to fix. 
 - Put CSS code through [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/) which brought back errors to fix. 
 
+<br>
 17/03/2021 <br>
 - Put HTML code through [W3C Markup Validation Service](https://validator.w3.org/) which now is presenting no issues after fixing.
 - Put CSS code through [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/) which now is presenting no issues after fixing.
@@ -480,23 +481,17 @@ The final deploy of the footer remained very close to Draft 2 with the main chan
 
 Final Footer allowed for user to see exact location of the gym and contact info of gym and every page of website experience. Also allowed user to get through to gym social media accounts. 
 
-
+Final edit was to change repo name from Cathals Playground to MS1-TDMT-Gym.
 
 ### How to Deploy?
 
-1. Go to (https://github.com/ShiftyKitty/Cathals-Playground)
+1. Go to (https://github.com/ShiftyKitty/MS1-TDMT-Gym)
 2. On this page click into Settings. 
 3. On the settings page, scroll down to Github Pages section
 4. Under Source select master branch and press Save. 
 5. Published link will then be present. 
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
+6. Published link to access and view live site: (https://shiftykitty.github.io/MS1-TDMT-Gym/)
 
-In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
-
-Different values for environment variables (Heroku Config Vars)?
-Different configuration files?
-Separate git branch?
-In addition, if it is not obvious, you should also describe how to run your code locally.
 
 <br>
 
@@ -511,6 +506,8 @@ In addition, if it is not obvious, you should also describe how to run your code
 - The opacity css styling used in Schedule and Contact page sections was taken from [Coder Coder](https://www.youtube.com/watch?v=LQsjNmkqUOc)
 
 - Google Map iframe was taken from [embedgooglemap.net](https://www.embedgooglemap.net/?gclid=Cj0KCQiAs5eCBhCBARIsAEhk4r7YZF_CTfsY100Th_bSmSwVZL4PQfFSnNAceY3cuJYA8riqM9wR8vYaAkVAEALw_wcB)
+
+- General queries were answered by using various help docs in [StackOverflow](https://stackoverflow.com/)
 
 ## Media
 - The photos used in this site were obtained from [Unsplash](https://unsplash.com/s/photos/boxing). 
